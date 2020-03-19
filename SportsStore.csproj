@@ -9,9 +9,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="FontAwesome" Version="4.7.0" />
+    <PackageReference Include="jQuery.Validation" Version="1.19.1" />
+    <PackageReference Include="jQuery.Validation.Unobtrusive" Version="2.0.20710" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.4" />
     <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.0" />
   </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties bower_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
 
 </Project>

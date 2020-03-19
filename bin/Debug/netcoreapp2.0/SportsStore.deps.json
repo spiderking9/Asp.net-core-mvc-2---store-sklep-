@@ -24,15 +24,30 @@
     ".NETCoreApp,Version=v2.0": {
       "SportsStore/1.0.0": {
         "dependencies": {
+          "FontAwesome": "4.7.0",
           "Microsoft.AspNetCore.All": "2.0.0",
           "Microsoft.NETCore.App": "2.0.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.0.4"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.0.4",
+          "jQuery.Validation": "1.19.1",
+          "jQuery.Validation.Unobtrusive": "2.0.20710"
         },
         "runtime": {
           "SportsStore.dll": {}
         },
         "compile": {
           "SportsStore.dll": {}
+        }
+      },
+      "FontAwesome/4.7.0": {},
+      "jQuery/1.4.4": {},
+      "jQuery.Validation/1.19.1": {
+        "dependencies": {
+          "jQuery": "1.4.4"
+        }
+      },
+      "jQuery.Validation.Unobtrusive/2.0.20710": {
+        "dependencies": {
+          "Microsoft.jQuery.Unobtrusive.Validation": "2.0.20710"
         }
       },
       "Libuv/1.10.0": {
@@ -2727,6 +2742,11 @@
           "lib/netstandard1.4/Microsoft.IdentityModel.Tokens.dll": {}
         }
       },
+      "Microsoft.jQuery.Unobtrusive.Validation/2.0.20710": {
+        "dependencies": {
+          "jQuery.Validation": "1.19.1"
+        }
+      },
       "Microsoft.Net.Http.Headers/2.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "2.0.0",
@@ -4578,6 +4598,34 @@
       "serviceable": false,
       "sha512": ""
     },
+    "FontAwesome/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-n4H/brfszElyoZ4kmGh8E75uqvLzLvFr3h2PFVdPH1LwUmWIpeqdaW2pcC4oZAhg7sESyObh0IZpAI8COCNeUg==",
+      "path": "fontawesome/4.7.0",
+      "hashPath": "fontawesome.4.7.0.nupkg.sha512"
+    },
+    "jQuery/1.4.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kexCeYIZehR5fRjo8CK1sngN5SZEQRFNfCYZHMS1RxwEEiSKetBw/gliYJcLJdJEBB+e9aHqleLCjuaSI7u23g==",
+      "path": "jquery/1.4.4",
+      "hashPath": "jquery.1.4.4.nupkg.sha512"
+    },
+    "jQuery.Validation/1.19.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vxIiGOMV4v+pXmv3gZ+MVuOwrnWGC4BQe7cy7GdhiJ3LkWiA7LRVz97q7WJf7KndYtld5zcuaJtGm0ATWKD/fQ==",
+      "path": "jquery.validation/1.19.1",
+      "hashPath": "jquery.validation.1.19.1.nupkg.sha512"
+    },
+    "jQuery.Validation.Unobtrusive/2.0.20710": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b+1siHUyEjSM3fnPKFO4f19+frMy9JCw2vcOo2LFXfhkw/KTO9qOroDNmpi6TJUYUGIkffgPkNB8IGtph1DTQg==",
+      "path": "jquery.validation.unobtrusive/2.0.20710",
+      "hashPath": "jquery.validation.unobtrusive.2.0.20710.nupkg.sha512"
+    },
     "Libuv/1.10.0": {
       "type": "package",
       "serviceable": true,
@@ -5676,6 +5724,13 @@
       "sha512": "sha512-SsJbZVPvjSlKFDAQmR2wpL6ZD/vCFlIsf0jxRlBJwyzKXZy3Wi/Xo+fE2MzAerLsJgG1UCdtplRwqDyq1euayw==",
       "path": "microsoft.identitymodel.tokens/5.1.4",
       "hashPath": "microsoft.identitymodel.tokens.5.1.4.nupkg.sha512"
+    },
+    "Microsoft.jQuery.Unobtrusive.Validation/2.0.20710": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8UaBqHLsvWMp6Y2wHvQUzfghI+CruAN3lmgojl/hKHTD4NddEFHN9g/Q2j6l5PgczPOBA6LHHC5CqMIKxPC/hg==",
+      "path": "microsoft.jquery.unobtrusive.validation/2.0.20710",
+      "hashPath": "microsoft.jquery.unobtrusive.validation.2.0.20710.nupkg.sha512"
     },
     "Microsoft.Net.Http.Headers/2.0.0": {
       "type": "package",
